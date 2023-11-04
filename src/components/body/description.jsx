@@ -4,9 +4,9 @@ import "../../css/description.css"
 function Description(){
     return(
         <div className="description">
-            <div>
-                <p>
-
+            <div className="description__text">
+                <p className="description__text--info">
+                    Hello, I am a systems engineering student.
                 </p>
             </div>
 

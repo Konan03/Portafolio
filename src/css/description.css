@@ -1,8 +1,16 @@
 .description{
-    width: 200px;
-    height: 100px;
-    border: 0.5px solid rgb(41, 39, 39);;
+    width: 1000px;
+    height: 500px;
+    /*border: 0.5px solid rgb(41, 39, 39);*/
     border-radius: 20px;
     margin: 20px auto;
+    align-items: center;
+}
+
+.description__text--info{
+    /*font-family: 'Chakra Petch', sans-serif;*/
+    font-size: 50px;
+    color: white;
+    white-space: pre-line;
     align-items: center;
 }
