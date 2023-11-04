@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    flex-direction: row; /* Muestra los elementos en una fila (horizontalmente) */
+    align-items: center; /* Centra los elementos verticalmente */
+    text-align: center; /* Centra el texto horizontalmente */
+    background-color: rgb(41, 39, 39);
+    justify-content: space-between; /* Alinea los elementos en los extremos */
+}
+.navbar__name{
+    padding-left: 20px;
+    color: white;
+    align-items: center;
+}
+  
+.navbar__list {
+    margin-left: 10px; /* Espacio entre el nombre y las opciones */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+  
+.navbar__list--content {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Mostrar elementos de la lista en una fila */
+    align-items: center;
+    padding-right: 20px;
+}
+  
+.navbar__list--item, .navbar__icon{
+    margin: 0 10px; /* Espacio horizontal entre los elementos de la lista */
+    color: white;
+}
+
+.navbar__icon{
+    display: flex;
+}
+  
