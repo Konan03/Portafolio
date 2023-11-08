@@ -11,12 +11,12 @@ const CardProject = () => (
     cover={
       <img
         alt="example"
-        src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+        src="\img\screenMenuApp.png"
       />
     }
   >
     <Meta
-      title={<span style={{ color: 'white'}}>Card title</span>} /* Cambia 'red' al color deseado */
+      title={<span style={{ color: 'white'}}>Menu App</span>} /* Cambia 'red' al color deseado */
       description={<span style={{ color: 'white' }}>This is the description</span> /* Cambia 'blue' al color deseado */}
     />
   </Card>
