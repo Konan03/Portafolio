@@ -1,6 +1,7 @@
 import React from "react";
 import "../../css/navbar.css"
 import { GithubOutlined, LinkedinOutlined} from '@ant-design/icons';
+import { Link } from 'react-router-dom';
 
 function Navbar(){
     return(
@@ -11,7 +12,15 @@ function Navbar(){
 
             <div className="navbar__list">
                 <ul className="navbar__list--content">
-                    <li className="navbar__list--item">Projects</li>
+
+                    <Link to={"/"}>
+                        <li className="navbar__list--item">Home</li>
+                    </Link>
+
+                    <Link to={"/projects"}>
+                        <li className="navbar__list--item">Projects</li>
+                    </Link>
+                
                     <li className="navbar__list--item">Contact</li>
                 </ul>
 
