@@ -10,7 +10,7 @@ function Description(){
                 </p>
             </div>
 
-            <img src="C:\Users\tecno\OneDrive\Escritorio\Konan\Portafolio\public\img\konan.jpeg" alt="photo profile"></img>
+            <img src="\img\konan.jpeg" alt="photo profile" className="description__photo"></img>
         </div>
     );
 }
