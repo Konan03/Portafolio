@@ -21,6 +21,16 @@
     text-shadow: 2px 2px 4px rgba(41, 39, 39, 1.2);
 }
 
+.description__text--txt{
+    font-size: 20px;
+    color: white;
+    white-space: pre-line;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(41, 39, 39, 1.2);
+    word-wrap: break-word; 
+    line-height: 1.5;
+}
+
 .description__photo{
     border-radius: 50%;
     border: 2px solid rgb(41, 39, 39);

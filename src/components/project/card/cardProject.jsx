@@ -10,14 +10,14 @@ const CardProject = () => (
     style={{ width: 300, backgroundColor: 'rgb(41, 39, 39)', fontFamily: "'Quicksand', sans-serif"}}
     cover={
       <img
-        alt="example"
+        alt="menuapp"
         src="\img\screenMenuApp.png"
       />
     }
   >
     <Meta
       title={<span style={{ color: 'white'}}>Menu App</span>} /* Cambia 'red' al color deseado */
-      description={<span style={{ color: 'white' }}>This is the description</span> /* Cambia 'blue' al color deseado */}
+      description={<span style={{ color: 'white' }}>menu for business information management web app</span> /* Cambia 'blue' al color deseado */}
     />
   </Card>
 );
