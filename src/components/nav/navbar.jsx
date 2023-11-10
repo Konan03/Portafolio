@@ -25,8 +25,12 @@ function Navbar(){
                 </ul>
 
                 <div className="navbar__icon">
-                    <GithubOutlined className="navbar__icon" style={{ fontSize: '24px' }} />
-                    <LinkedinOutlined className="navbar__icon" style={{ fontSize: '24px' }}/>
+                    <a href="https://github.com/Konan03" target="_blank" rel="noopener noreferrer">
+                        <GithubOutlined className="navbar__icon" style={{ fontSize: '24px' }} />
+                    </a>
+                    <a href="https://www.linkedin.com/in/jose-manuel-caicedo-perdomo/" target="_blank" rel="noopener noreferrer">
+                        <LinkedinOutlined className="navbar__icon" style={{ fontSize: '24px' }}/>
+                    </a>
                 </div>
             </div>
 

@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px; /* Ajusta el margen según tus preferencias */
+}
+
+.container__card {
+    margin-bottom: 20px; /* Espacio entre las tarjetas */
+    box-sizing: border-box; /* Incluye el padding y el border en el ancho total */
+}
+
+.container > :nth-child(n) {
+    margin-top: 20px; /* Espacio entre las filas */
+}
+
+/* Si quieres que los cards tengan un margen interno, puedes agregar lo siguiente */
+.container__card {
+    padding: 15px; /* Ajusta el margen interno según tus preferencias */
+}

@@ -4,8 +4,10 @@ import "../../css/project.css"
 
 function Project(){
     return( 
-        <section>
-            <CardProject></CardProject>
+        <section className="container">
+            <CardProject className="container__card"></CardProject>
+            <CardProject className="container__card"></CardProject>
+            <CardProject className="container__card"></CardProject>
         </section>
     );
 }
