@@ -23,7 +23,9 @@ function Contact(){
         <Button type="primary" onClick={showModal} style={{ backgroundColor: 'rgb(80, 77, 77)' }}>
           Contact
         </Button>
-        <Modal title="Contacts" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
+        <Modal title="Contacts" open={isModalOpen} onOk={handleOk} onCancel={handleCancel} 
+        okButtonProps={{ style: { backgroundColor: 'rgb(80, 77, 77)'} }}
+        cancelButtonProps={{style: {backgroundColor: 'rgb(80, 77, 77)', color: 'white', borderColor: 'white'}}}>
           <MdEmail/>
           <p>manuelcaicedo52@gmail.com</p>
           <FaPhone/>
