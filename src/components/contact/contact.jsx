@@ -26,10 +26,15 @@ function Contact(){
         <Modal title="Contacts" open={isModalOpen} onOk={handleOk} onCancel={handleCancel} 
         okButtonProps={{ style: { backgroundColor: 'rgb(80, 77, 77)'} }}
         cancelButtonProps={{style: {backgroundColor: 'rgb(80, 77, 77)', color: 'white', borderColor: 'white'}}}>
-          <MdEmail/>
-          <p>manuelcaicedo52@gmail.com</p>
-          <FaPhone/>
-          <p>+57 3219453514</p>
+          <div className="icon">
+            <MdEmail size={30} />
+            <p className="text">manuelcaicedo52@gmail.com</p>
+          </div>
+          <div className="icon">
+            <FaPhone size={30} />
+            <p className="text">+57 3219453514</p>
+          </div>
+          
         </Modal>
         </>
     );
