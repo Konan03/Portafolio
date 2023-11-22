@@ -2,6 +2,7 @@ import React from "react";
 import "../../css/navbar.css"
 import { GithubOutlined, LinkedinOutlined} from '@ant-design/icons';
 import { Link } from 'react-router-dom';
+import Contact from "../contact/contact";
 
 function Navbar(){
     return(
@@ -21,9 +22,9 @@ function Navbar(){
                         <li className="navbar__list--item">Projects</li>
                     </Link>
 
-                    <Link to={"/contact"} className="navbar__link">
-                        <li className="navbar__list--item">Contact</li>
-                    </Link>
+                    
+                    <li className="navbar__list--item"> <Contact/></li>
+                    
                     
                 </ul>
 
