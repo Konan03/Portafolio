@@ -20,8 +20,11 @@ function Navbar(){
                     <Link to={"/projects"} className="navbar__link">
                         <li className="navbar__list--item">Projects</li>
                     </Link>
-                
-                    <li className="navbar__list--item">Contact</li>
+
+                    <Link to={"/contact"} className="navbar__link">
+                        <li className="navbar__list--item">Contact</li>
+                    </Link>
+                    
                 </ul>
 
                 <div className="navbar__icon">

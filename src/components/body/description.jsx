@@ -16,7 +16,7 @@ function Description(){
                  <br/>
                  willing to learn new things</h3>
 
-                <div className="description__xp">
+                <div className="description__xp">   
                     <BiLogoReact size={50} color="white" className="description__xp--icon"></BiLogoReact> 
                     <p className="description__xp--text">2 months basic</p>
                 </div>
