@@ -20,7 +20,7 @@ function Contact(){
     return(
 
         <>
-        <Button type="primary" onClick={showModal}>
+        <Button type="primary" onClick={showModal} style={{ backgroundColor: 'rgb(80, 77, 77)' }}>
           Contact
         </Button>
         <Modal title="Contacts" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>

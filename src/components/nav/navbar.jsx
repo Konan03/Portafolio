@@ -4,6 +4,7 @@ import { GithubOutlined, LinkedinOutlined} from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 import Contact from "../contact/contact";
 
+
 function Navbar(){
     return(
         <div className="navbar">
