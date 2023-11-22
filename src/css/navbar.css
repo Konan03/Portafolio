@@ -32,6 +32,11 @@
     color: white;
 }
 
+.navbar__link{
+    text-decoration: none; /* Esto elimina el subrayado */
+    color: inherit; /* Opcional: asegura que el color del enlace sea el mismo que el del texto circundante */
+}
+
 .navbar__icon{
     display: flex;
 }

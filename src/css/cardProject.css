@@ -1,0 +1,13 @@
+.cardProject {
+    width: 300px;
+    background-color: rgb(41, 39, 39);
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .metaTitle .ant-card-meta-title {
+    color: white;
+  }
+  
+  .metaTitle .ant-card-meta-description {
+    color: white;
+  }

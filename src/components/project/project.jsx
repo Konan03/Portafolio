@@ -1,13 +1,21 @@
 import React from "react";
 import CardProject from "./card/cardProject";
 import "../../css/project.css"
+import projectsData from "../project/card/projects.json"
 
 function Project(){
     return( 
         <section className="container">
-            <CardProject className="container__card"></CardProject>
-            <CardProject className="container__card"></CardProject>
-            <CardProject className="container__card"></CardProject>
+            {projectsData.map((project) => (
+            <CardProject
+                key={project.id}
+                title={project.title}
+                description={project.description}
+                image={project.image}
+                className="container__card"
+            />
+        ))}
+            
         </section>
     );
 }

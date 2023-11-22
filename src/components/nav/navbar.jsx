@@ -13,11 +13,11 @@ function Navbar(){
             <div className="navbar__list">
                 <ul className="navbar__list--content">
 
-                    <Link to={"/"}>
+                    <Link to={"/"} className="navbar__link">
                         <li className="navbar__list--item">Home</li>
                     </Link>
 
-                    <Link to={"/projects"}>
+                    <Link to={"/projects"} className="navbar__link">
                         <li className="navbar__list--item">Projects</li>
                     </Link>
                 

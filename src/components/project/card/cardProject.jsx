@@ -2,22 +2,24 @@ import React from "react";
 
 import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
 import { Avatar, Card } from 'antd';
+import "../../../css/cardProject.css"
 
 const { Meta } = Card;
 
-const CardProject = () => (
+const CardProject = ({title, description, image, alt}) => (
   <Card
-    style={{ width: 300, backgroundColor: 'rgb(41, 39, 39)', fontFamily: "'Quicksand', sans-serif"}}
+    className="cardProject"
     cover={
       <img
-        alt="menuapp"
-        src="\img\screenMenuApp.png"
+        alt={alt || image}
+        src={image}
       />
     }
   >
     <Meta
-      title={<span style={{ color: 'white'}}>Menu App</span>} /* Cambia 'red' al color deseado */
-      description={<span style={{ color: 'white' }}>menu for business information management web app</span> /* Cambia 'blue' al color deseado */}
+      className="metaTitle"
+      title={<span>{title}</span>}
+      description={<span >{description}</span> }
     />
   </Card>
 );

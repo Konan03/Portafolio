@@ -1,20 +1,36 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;/* Asegura que los elementos se alineen a la izquierda */
+    align-items: flex-start;/* Alinea los elementos al principio de la columna */
+    gap: 40px;/* Espacio entre las tarjetas, puedes ajustar a tu preferencia */
     margin: 20px; /* Ajusta el margen según tus preferencias */
+    margin-top: 40px; /* Espacio entre las filas */
 }
 
 .container__card {
-    margin-bottom: 20px; /* Espacio entre las tarjetas */
-    box-sizing: border-box; /* Incluye el padding y el border en el ancho total */
+    position: relative;
+    flex: 0 0 calc(33.333% - 40px); /* Resta el doble del gap para ambos lados */
+    margin-bottom: 20px; /* Solo necesitas el margen inferior para el espacio entre las filas */
+    transition: transform 0.3s ease;
+    box-sizing: border-box;
+    padding: 15px; /* Ajusta si es necesario */ 
 }
 
-.container > :nth-child(n) {
-    margin-top: 20px; /* Espacio entre las filas */
+.container__card:hover {
+    transform: scale(1.05) !important; /* Aumenta el tamaño de la tarjeta al 105% */
+    z-index: 1; /* Asegura que la tarjeta se sobreponga a las otras al agrandarse */
 }
 
-/* Si quieres que los cards tengan un margen interno, puedes agregar lo siguiente */
-.container__card {
-    padding: 15px; /* Ajusta el margen interno según tus preferencias */
+/* Ajustes responsivos para diferentes tamaños de pantalla */
+@media (max-width: 1200px) {
+    .container__card {
+      flex:0 0 calc(50% - 40px); /* Ajusta para dos tarjetas con un gap de 20px en cada lado */
+    }
+}
+  
+@media (max-width: 768px) {
+    .container__card {
+        flex: 0 0 calc(100% - 40px); /* Ajusta para una tarjeta con un gap de 20px en cada lado */
+    }
 }
