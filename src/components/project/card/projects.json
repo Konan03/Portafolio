@@ -3,57 +3,17 @@
       "id": 1,
       "title": "Menu App",
       "description": "menu for business information management web app",
-      "image": "img/screenMenuApp.png",
+      "images": ["img/screenMenuApp.png", "img/TeamForm1.png"],
       "alt": "menu-app"
     },
     {
       "id": 2,
       "title": "Team form",
       "description": "form for registering users of different teams",
-      "image": "img/TeamForm1.png",
+      "images": ["img/TeamForm1.png", "img/TeamForm2.png", "img/TeamForm3.png", "img/TeamForm4.png"],
       "alt": "team-form"
-    },
-    {
-        "id": 3,
-        "title": "Form sing",
-        "description": "login form for some app",
-        "image": "",
-        "alt": "form sing"
-    },
-    {
-        "id": 4,
-        "title": "Form sing",
-        "description": "login form for some app",
-        "image": "",
-        "alt": "form sing"
-    },
-    {
-        "id": 5,
-        "title": "Form sing",
-        "description": "login form for some app",
-        "image": "",
-        "alt": "form sing"
-    },
-    {
-        "id": 6,
-        "title": "Form sing",
-        "description": "login form for some app",
-        "image": "",
-        "alt": "form sing"
-    },{
-        "id": 7,
-        "title": "Form sing",
-        "description": "login form for some app",
-        "image": "",
-        "alt": "form sing"
-    },
-    {
-        "id": 8,
-        "title": "Form sing",
-        "description": "login form for some app",
-        "image": "",
-        "alt": "form sing"
     }
+    
    
   
 ]
