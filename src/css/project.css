@@ -9,9 +9,6 @@
     margin-right: -20px; /* Elimina el margen derecho adicional */
 }
 
-
-
-
 .container__card {
     position: relative;
     flex: 0 0 calc(25% - 20px); /* Elimina el espacio extra restando solo la mitad del gap */
