@@ -2,18 +2,18 @@
     width: 300px;
     background-color: rgb(41, 39, 39);
     font-family: 'Quicksand', sans-serif;
-  }
+}
   
-  .metaTitle .ant-card-meta-title {
+.metaTitle .ant-card-meta-title {
     color: white;
-  }
+}
   
-  .metaTitle .ant-card-meta-description {
+.metaTitle .ant-card-meta-description {
     color: white;
-  }
+}
 
-  .carousel .control-arrow,
-  .carousel.carousel-slider .control-arrow {
+.carousel .control-arrow,
+.carousel.carousel-slider .control-arrow {
     /* Aumentar el tamaño del icono */
     font-size: 30px; 
   
@@ -28,12 +28,16 @@
   
     /* Asegúrate de que el botón sea completamente opaco al pasar el ratón */
 
-  }
+}
 
-  .carousel .control-arrow:hover{
+.carousel .control-arrow:hover{
     background: rgba(0, 0, 0, 0.2);
-  }
+}
 
-  .carousel.carousel-slider .control-arrow:hover{
+.carousel.carousel-slider .control-arrow:hover{
     background: rgba(0, 0, 0, 0.2);
-  }
+}
+
+.icon{
+  margin-top: 10px;
+}

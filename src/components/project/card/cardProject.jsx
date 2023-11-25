@@ -1,12 +1,16 @@
 import React from "react";
-import { Card } from 'antd';
+import { Card} from 'antd';
 import { Carousel } from 'react-responsive-carousel';
+import { GithubOutlined} from '@ant-design/icons';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "../../../css/cardProject.css"
 
 const { Meta } = Card;
 
-const CardProject = ({title, description, images, alt}) => (
+const CardProject = ({title, description, images, alt, repo}) => (
+
+  
+  
   <Card
     className="cardProject"
     cover={
@@ -28,8 +32,11 @@ const CardProject = ({title, description, images, alt}) => (
     <Meta
       className="metaTitle"
       title={<span>{title}</span>}
-      description={<span>{description}</span>}
+      description={<span>{description}</span>}   
     />
+    <a href={repo} target="_blank" rel="noopener noreferrer">
+      <GithubOutlined className="icon" style={{ fontSize: '24px', color: "white" }} />
+    </a>
   </Card>
 );
 

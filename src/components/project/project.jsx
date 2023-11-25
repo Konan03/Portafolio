@@ -13,6 +13,7 @@ function Project() {
               description={project.description}
               images={project.images} // Asegúrate de que esto se corresponde con tu JSON actualizado
               alt={project.alt}
+              repo={project.repo}
             />
           ))}
         </section>

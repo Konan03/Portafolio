@@ -27,12 +27,16 @@ function Contact(){
         okButtonProps={{ style: { backgroundColor: 'rgb(80, 77, 77)'} }}
         cancelButtonProps={{style: {backgroundColor: 'rgb(80, 77, 77)', color: 'white', borderColor: 'white'}}}>
           <div className="icon">
-            <MdEmail size={30} />
-            <p className="text">manuelcaicedo52@gmail.com</p>
+            <a href="mailto:manuelcaicedo52@gmail.com" className="icon">
+              <MdEmail size={30} />
+              <p className="text">manuelcaicedo52@gmail.com</p>
+            </a>
           </div>
           <div className="icon">
-            <FaPhone size={30} />
-            <p className="text">+57 3219453514</p>
+            <a href="tel:+573219453514" className="icon">
+              <FaPhone size={30} />
+              <p className="text">+57 3219453514</p>
+            </a>
           </div>
           
         </Modal>

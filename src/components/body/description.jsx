@@ -18,13 +18,13 @@ function Description(){
 
                 <div className="description__xp">   
                     <BiLogoReact size={50} color="white" className="description__xp--icon"></BiLogoReact> 
-                    <p className="description__xp--text">2 months basic</p>
+                    <p className="description__xp--text">3 months basic</p>
                 </div>
                 <div className="description__xp">
                     <AiFillHtml5 size={50} color="white"/>
                     <BiLogoCss3 size={50} color="white"/>
                     <BiLogoJavascript size={50} color="white"/>
-                    <p className="description__xp--text"> 6 months basic</p>
+                    <p className="description__xp--text"> 7 months basic</p>
                 </div>
                 <div className="description__xp">
                     <BiLogoJava size={50} color="white"/>

@@ -4,14 +4,16 @@
       "title": "Menu App",
       "description": "menu for business information management web app",
       "images": ["img/screenMenuApp.png", "img/MenuApp2.PNG", "img/MenuApp3.PNG", "img/MenuPApp4.PNG"],
-      "alt": "menu-app"
+      "alt": "menu-app",
+      "repo":"https://github.com/Konan03/Menu_App"
     },
     {
       "id": 2,
       "title": "Team form",
       "description": "form for registering users of different teams",
       "images": ["img/TeamForm1.png", "img/TeamForm2.png", "img/TeamForm3.png", "img/TeamForm4.png"],
-      "alt": "team-form"
+      "alt": "team-form",
+      "repo":"https://github.com/Konan03/Team_form"
     }
     
    
