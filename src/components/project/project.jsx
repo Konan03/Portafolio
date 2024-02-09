@@ -1,23 +1,37 @@
 import React from "react";
-import CardProject from "./card/cardProject";
-import "../../css/project.css"
-import projectsData from "../project/card/projects.json"
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "../../css/project.css";
+import projectsData from "../project/card/projects.json";
 
 function Project() {
-    return (
-        <section className="container">
-          {projectsData.map((project) => (
-            <CardProject
-              key={project.id}
-              title={project.title}
-              description={project.description}
-              images={project.images} // Asegúrate de que esto se corresponde con tu JSON actualizado
-              alt={project.alt}
-              repo={project.repo}
-            />
-          ))}
-        </section>
-      );
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
+
+  return (
+    <div className="project-container">
+      <Slider {...settings}>
+        {projectsData.map((project, index) => (
+          <div key={index}>
+            <h3 className="project-title">{project.title}</h3>
+            <p className="project-descripcion">{project.description}</p>
+            <div className="project-images">
+              {project.images.map((image, imageIndex) => (
+                <img key={imageIndex} src={image} alt={project.alt} />
+              ))}
+            </div>
+            <a className="repo" href={project.repo} target="_blank" rel="noopener noreferrer">View Repository</a>
+          </div>
+        ))}
+      </Slider>
+    </div>
+  );
 }
 
 export default Project;
